@@ -1,9 +1,9 @@
 export const SITE = {
-  website: "https://devosfera.vercel.app/",
-  author: "Andrés Ujpán",
+  website: "https://kit.youkou.cc.cd/",
+  author: "五五开",
   profile: process.env.PUBLIC_SOCIAL_GITHUB ?? "", // set in .env
-  desc: "A space where curiosity becomes code. Exploring web development, software architecture and everything that makes the tech world spin.",
-  title: "Astro Devosfera",
+  desc: "A space where curiosity becomes creation. Exploring practical tools, digital resources and everything that makes our online world thrive.",
+  title: "Kitsfera",
   ogImage: "devosfera-og.webp", // located in the public folder
   lightAndDarkMode: true,
   postPerIndex: 6,
@@ -37,7 +37,7 @@ export const SITE = {
   introAudio: {
     enabled: true, // show/hide intro player in home and compact player while navigating
     // src: path to file (relative to /public or absolute URL). Example: "/intro.mp3" or "https://example.com/stream"
-    src: "https://fluxfm.streamabc.net/flx-chillhop-mp3-128-8581707",
+    src: "https://music-stream.youkou.cc.cd",
     // src: "/audio/intro-web.mp3",
     isStream: true, // true for radio/live stream URLs (example: https://fluxfm.streamabc.net/flx-chillhop-mp3-128-8581707)
     label: "LOFI", // display label in player

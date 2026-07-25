@@ -128,7 +128,7 @@ export default async post => {
                       color: "#cbd5e1",
                     },
                     children: [
-                      "Written by ",
+                      "文：",
                       {
                         type: "span",
                         props: {
