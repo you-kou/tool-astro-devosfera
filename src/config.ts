@@ -26,7 +26,7 @@ export const SITE = {
     grain: true, // background visual noise layer
   },
   editPost: {
-    enabled: true,
+    enabled: false,
     text: "Edit this post",
     url: process.env.PUBLIC_EDIT_POST_URL ?? "", // set in .env
   },
